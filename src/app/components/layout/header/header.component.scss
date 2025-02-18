@@ -1,0 +1,38 @@
+@import '../../../../styles/variables';
+.header {
+  display: flex;
+  align-items: center;
+  input[type="text"] {
+    width: 100%;
+    border: 1px solid $mainWhite;
+    border-radius: 32px;
+    height: 33px;
+    font-size: 15.38px;
+    background-color: $mainColor;
+    background-image: url("../../../../assets/Vector.svg");
+    background-position: 5% center;
+    background-repeat: no-repeat;
+    padding: 6.67px 40px 7.32px 70px;
+  }
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.15);
+    font-weight: 400;
+  }
+  ul{
+    margin-top: 10px;
+    li{
+      list-style: none;
+      margin: 0 2px;
+    }
+  }
+}
+@media (min-width: 768px){
+  .header{
+    display: grid;
+    grid-template-columns: 85% 10%;
+    .search-bar{
+      margin-left: 20px;
+    }
+  }
+
+}

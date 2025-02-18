@@ -1,0 +1,32 @@
+@import "../../../../styles/variables";
+.skills-container {
+  background-color: $mainColor;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: $whiteInfo;
+  }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    .skill {
+      background: linear-gradient(to right, #ff2676, #a133ff);
+      color: white;
+      font-weight: 600;
+      font-size: 8px;
+      padding: 10px;
+      border-radius: 8px;
+      white-space: nowrap;
+      display: inline-block;
+      margin:0;
+    }
+  }
+}
+

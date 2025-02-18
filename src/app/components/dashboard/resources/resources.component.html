@@ -1,0 +1,17 @@
+<div class="card">
+  <h2>Active Learning Resources</h2>
+  <ul>
+    @for( resource of resources; track $index){
+      <li class="course">
+        <div class="item">
+          <span class="item-name">{{ resource.name }}</span>
+        </div>
+        <div class="item-number">
+          <span class="number">{{ resource.progress }}%</span>
+          <img src="../../../assets/Vector(2).svg" alt="{{ resource.name }}" class="icon" />
+        </div>
+
+      </li>
+    }
+  </ul>
+</div>

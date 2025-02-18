@@ -1,0 +1,43 @@
+@import "../../../../styles/variables";
+.card {
+  background-color: $mainColor;
+  color: $whiteInfo;
+  border-radius: 1rem;
+  margin:10px 0;
+  z-index: -2;
+    /* DESKTOP VIEW */
+    @media (min-width: 768px) {
+      margin: 0;
+      height:100%;
+    }
+  h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.15);;
+    padding: 1rem;
+    border-radius: 5px 5px 0 0;
+    font-family: "Poppins", sans-serif;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    .course {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: space-around;
+      margin: 7px;
+      .item-name {
+        margin-left: 10px;
+      }
+      .item-number{
+        .number{
+          margin:0 10px;
+        }
+      }
+    }
+  }
+}

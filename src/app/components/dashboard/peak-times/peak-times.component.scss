@@ -1,0 +1,47 @@
+@import "../../../../styles/variables";
+.peak-container {
+  background-color: $mainColor; //
+  padding: 20px;
+  border-radius: 10px;
+  color: $whiteInfo;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0;
+  /* DESKTOP VIEW */
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+
+  .title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 2rem;
+  }
+.peak{
+  .peak-days,
+  .peak-time {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+  }
+
+}
+
+  .day,
+  .time {
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid;
+    text-align: center;
+    display: inline-block;
+  }
+  .yellow {
+    color: rgba(255, 193, 7, 1);
+    border-color: rgba(255, 193, 7, 1);
+  }
+  .pink {
+    color: rgba(252, 24, 90, 1);
+    border-color: rgba(252, 24, 90, 1);
+  }
+}

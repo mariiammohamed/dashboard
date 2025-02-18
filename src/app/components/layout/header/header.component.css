@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.header input[type=text] {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 32px;
+  height: 33px;
+  font-size: 15.38px;
+  background-color: rgb(11, 16, 42);
+  background-image: url("../../../../assets/Vector.svg");
+  background-position: 5% center;
+  background-repeat: no-repeat;
+  padding: 6.67px 47.99px 7.32px 48px;
+}
+.header input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.15);
+  font-weight: 400;
+}
+.header input::placeholder {
+  color: rgba(255, 255, 255, 0.15);
+  font-weight: 400;
+}
+.header ul {
+  margin-top: 10px;
+}
+.header ul li {
+  list-style: none;
+  margin: 0 2px;
+}/*# sourceMappingURL=header.component.css.map */

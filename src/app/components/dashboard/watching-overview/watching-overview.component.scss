@@ -1,0 +1,20 @@
+@import '../../../../styles/variables';
+
+.overview{
+  background-color: $mainColor;
+  border-radius: 1rem;
+  canvas {
+    width: 100% !important;
+    height: 300px !important;
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.15);;
+    padding: 1rem;
+    border-radius: 5px 5px 0 0;
+    font-family: "Poppins", sans-serif;
+    color:$whiteInfo
+  }
+
+}

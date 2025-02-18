@@ -1,0 +1,90 @@
+<nav class="navbar d-md-none">
+  <button class="navbar-toggler" type="button" (click)="toggleSidebar()">
+    ☰
+  </button>
+</nav>
+
+
+<div [ngClass]="{'sidebar': true, 'show': showSidebar}" class="d-md-block">
+  <ul class="menu">
+    <li class="list-down selectList item">
+      <a class="selected" routerLink="/dashboard"><img src="../../../../assets/dashboard.svg"> Dashboard</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-rotate-270 fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="selectList item"><a  class="selected" routerLink="/analysis"><i class="fa-solid fa-caret-right" style="color: rgba(255, 255, 255, 1)"></i>Analysis</a></li>
+    <li class="item"><a routerLink="/ecommerce"><i class="fa-solid fa-caret-right"></i>eCommerce</a></li>
+
+    <li class="list-down" >
+      <a routerLink="/widgets"><img src="../../../../assets/wid.svg"> Widgets</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="list-down">
+      <a routerLink="/apps">Apps</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="menu-header">UI ELEMENTS</li>
+    <li><a routerLink="/cards"><img src="../../../../assets/cards.svg"> Cards</a></li>
+    <li class="list-down">
+      <a routerLink="/ecommerce"> <img src="../../../../assets/eco.svg"> eCommerce</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="list-down">
+      <a routerLink="/components"><img src="../../../../assets/comp.svg">Components</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="list-down">
+      <a routerLink="/icons"><img src="../../../../assets/icons.svg">Icons</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="menu-header">FORMS & TABLES</li>
+    <li class="list-down">
+      <a routerLink="/forms"><img src="../../../../assets/forms.svg"> Forms</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="list-down">
+      <a routerLink="/tables"><img src="../../../../assets/widgets.svg"> Tables</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="menu-header">PAGES</li>
+    <li class="list-down">
+      <a routerLink="/authentication"><img src="../../../../assets/auth.svg">Authentication</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li><a routerLink="/user-profile"> <img src="../../../../assets/user.svg">User Profile</a></li>
+    <li><a routerLink="/timeline">  <img src="../../../../assets/timeline.svg">Timeline</a></li>
+
+    <li class="list-down">
+      <a routerLink="/pages"> <img src="../../../../assets/pages.svg">Pages</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+    <li><a routerLink="/faq"> <img src="../../../../assets/faq.svg">FAQ</a></li>
+    <li><a routerLink="/pricing"> <img src="../../../../assets/pricing.svg">Pricing</a></li>
+
+    <li class="menu-header">CHARTS & MAPS</li>
+    <li class="list-down">
+      <a routerLink="/charts"> <img src="../../../../assets/charts.svg"> Charts</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+    <li class="list-down">
+      <a routerLink="/maps"> <img src="../../../../assets/maps.svg">Maps</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+
+    <li class="menu-header">OTHERS</li>
+
+    <li class="list-down">
+      <a routerLink="/menu-levels"><img src="../../../../assets/menu.svg">Menu Levels</a>
+      <i class="fa-sharp fa-solid fa-chevron-left fa-2xs" style="color: #babdb6;"></i>
+    </li>
+    <li><a routerLink="/documentation"><img src="../../../../assets/doc.svg">Documentation</a></li>
+  </ul>
+</div>

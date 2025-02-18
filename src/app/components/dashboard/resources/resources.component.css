@@ -1,0 +1,28 @@
+.card {
+  background-color: rgb(11, 16, 42);
+  color: rgb(230, 236, 240);
+  border-radius: 1rem;
+}
+.card h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 1px solid grey;
+  padding: 1rem;
+  border-radius: 5px 5px 0 0;
+  font-family: "Poppins", sans-serif;
+}
+.card ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.card ul .course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+  margin: 10px;
+}
+.card ul .course .item-name {
+  margin-left: 10px;
+}/*# sourceMappingURL=resources.component.css.map */

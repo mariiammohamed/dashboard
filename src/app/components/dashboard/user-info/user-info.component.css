@@ -1,0 +1,81 @@
+.user-info {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.user-info .user-welcome {
+  background-color: rgb(11, 16, 42);
+  border-radius: 1rem;
+  border: 1px solid rgb(11, 16, 42);
+  color: rgb(230, 236, 240);
+  display: grid;
+  grid-template-columns: 55% 40%;
+  justify-content: space-evenly;
+  gap: 5%;
+  padding: 10px;
+}
+.user-info .user-welcome .right-info {
+  border-radius: 1rem;
+  display: grid;
+  grid-template-rows: 40% 50%;
+  gap: 10%;
+}
+.user-info .user-welcome .right-info .profile-info {
+  display: flex;
+}
+.user-info .user-welcome .right-info .profile-info .welcome {
+  padding-left: 5px;
+}
+.user-info .user-welcome .right-info .profile-info .welcome span {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+.user-info .user-welcome .right-info .profile-info .welcome p {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.user-info .user-welcome .right-info .login-info {
+  margin-top: 10px;
+}
+.user-info .user-welcome .right-info .login-info h5 {
+  font-size: 0.9rem;
+}
+.user-info .user-welcome .right-info .login-info p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.user-info .user-welcome .left-cover {
+  border-radius: 1rem;
+}
+.user-info .user-welcome .left-cover img {
+  width: 100%;
+  height: 100%;
+}
+.user-info .status {
+  background-color: rgb(11, 16, 42);
+  border-radius: 1rem;
+  padding: 10px;
+  width: 170px;
+}
+.user-info .status h3, .user-info .status span {
+  font-family: "Poppins", sans-serif;
+  color: rgb(230, 236, 240);
+}
+.user-info .status h3 {
+  font-size: 1rem;
+}
+.user-info .status span {
+  font-size: 0.7rem;
+}
+.user-info .status .circle-status {
+  text-align: center;
+}
+.user-info .status .circle-status p {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: rgb(211, 215, 220);
+}/*# sourceMappingURL=user-info.component.css.map */

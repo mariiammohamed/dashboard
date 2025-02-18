@@ -1,0 +1,17 @@
+<div class="card">
+  <h2>Trending Items</h2>
+  <ul>
+    @for( item of trendingItems; track $index){
+      <li class="course">
+        <div>
+          <img [src]="item.image" alt="{{ item.name }}" class="icon" />
+          <span class="item-name">{{ item.name }}</span>
+        </div>
+        <div class="item-number">
+          <span class="number">{{ item.number }}</span>
+        </div>
+
+      </li>
+    }
+  </ul>
+</div>

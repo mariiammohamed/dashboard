@@ -1,0 +1,26 @@
+
+<div class="cardList">
+  @for(card of cards ;track  $index){
+    <div class="card">
+      <div class="d-flex">
+        <div>
+          <h2>Course Enrollment</h2>
+          <p>{{ card.enrolled }} of them were enrolled recently</p>
+        </div>
+        <div>
+          <span class="enrolled">{{ card.recentlyEnrolled}}</span>
+      </div>
+      </div>
+
+      <div class="course-info">
+          <span>{{ card.coursesLeft }} course left to complete</span>
+          <span>{{ card.progress }}%</span>
+      </div>
+      <div class="progress-bar">
+          <div class="progress" [style.width.%]="card.progress"></div>
+      </div>
+    </div>
+
+  }
+
+</div>
